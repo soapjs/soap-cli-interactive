@@ -98,7 +98,7 @@ export class NewControllerStoryboard extends Storyboard<ApiJson> {
 
 ## Contribution
 
-Contributions to the `@soap-cli-interactive` package are welcome. Whether it's improving the existing code, adding new features, or fixing bugs, your input helps enhance the `soap` ecosystem. Please follow the contributing guidelines outlined in the repository.
+Contributions to the `@soapjs/soap-cli-interactive` package are welcome. Whether it's improving the existing code, adding new features, or fixing bugs, your input helps enhance the `soap` ecosystem. Please follow the contributing guidelines outlined in the repository.
 
 ## Documentation
 
