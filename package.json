@@ -11,10 +11,11 @@
   "scripts": {
     "test:unit": "jest --config=jest.config.unit.js",
     "clean": "rm -rf ./build",
-    "build": "npm run clean && tsc -b"
+    "build": "npm run clean && tsc -b",
+    "prepublish": "npm run clean && tsc --project tsconfig.build.json"
   },
   "dependencies": {
-    "@soapjs/soap-cli-common": "^0.0.5",
+    "@soapjs/soap-cli-common": "^0.0.6",
     "chalk": "4.1.2",
     "change-case": "^4.1.2",
     "enquirer": "^2.3.6",

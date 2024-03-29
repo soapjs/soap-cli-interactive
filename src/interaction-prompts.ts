@@ -8,7 +8,7 @@ const {
 } = require("enquirer");
 
 export class InteractionPrompts {
-  public static continue(message: string, header?: string) {
+  public static continue(message: string, header?: string): Promise<boolean> {
     return new Promise((resolve, reject) => {
       const prompt = new Confirm({
         name: "question",
