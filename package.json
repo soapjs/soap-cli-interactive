@@ -1,6 +1,6 @@
 {
   "name": "@soapjs/soap-cli-interactive",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Tools for creating interactive forms and session management, used in SoapJS CLI.",
   "homepage": "https://docs.soapjs.com",
   "repository": "https://github.com/soapjs/soap-cli-interactive",
